@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Raleway&display=swap');
+
+#cargando {
+    display: none;
+}
+
+/*LOGIN*/
+
+/* css - formulario*/
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .cod-contenedor{
+    background-color: whitesmoke;
+    width: 388px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .form-header{
+    background-color: rgb(10, 32, 54);
+    text-align: center;
+    padding: 30px 0 40px;
+    color: floralwhite;
+    font-family: 'Raleway', sans-serif;
+    clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
+  }
+  .form-header img{
+    vertical-align: top;
+    width: 40px;
+  }
+  
+  .form-header h2{
+    color: dodgerblue;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+  
+  .form-header span{
+    color: floralwhite;
+  }
+  
+  .form-title{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 32px;
+    overflow: hidden;
+    font-family:'ABeeZee', sans-serif;
+    color: rgb(10, 32, 54);
+  }
+  
+  h3{
+    position:relative ;
+    display: inline-block;
+    color: rgb(10, 32, 54);
+    padding: 0 10px;
+  }
+  
+  h3::after,
+  h3::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: rgb(28, 62, 95);
+    top: 0.5rem;
+  }
+  
+  h3::after{
+    left: 100%;
+  
+  }
+  
+  h3::before{
+    right: 100%;
+  }
+  
+  .cod-form{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .input-group{
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+  }
+  
+  input[type="email"],
+  input[type="password"]{
+    border: none;
+    border-bottom: 2px solid rgb(10, 32, 54);
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    color: rgb(10, 32, 54);
+    padding-left: 10px;
+    font-family: 'ABeeZee', sans-serif;
+    background: none;
+    text-align: center; 
+    
+  }
+  
+  .label{
+    position: absolute;
+    top: 0;
+    left:0;
+    font-size: 14px;
+    color:rgb(10, 32, 54) ;
+    cursor: text;
+    transition: all .3s ease;
+   
+  }
+  
+  .form-input:focus + label{
+    top: -14px;
+    font-size: 12px;
+    color: rgb(121, 119, 119);
+    font-family: 'ABeeZee';
+   
+   
+  
+  }
+  .active{
+    top: -14px;
+    font-size: 12px;
+    color: rgb(121, 119, 119);
+  }
+  
+  .error{
+    color: #FF0000 ;
+  
+  }
+  
+  button{
+    background-color: rgb(10, 32, 54);
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    margin: 20px auto;
+    width: 170px;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+  }
+  button:hover{
+    background-color: rgb(28, 62, 95);
+    cursor: pointer;
+  }
+  button:active{
+    background-color: rgb(28, 62, 95);
+  }
+  
+  .input-group p > a{
+    text-decoration: none;
+    color: dodgerblue;
+  }
+  
+  .input-group p > a:hover{
+    text-decoration: underline;
+  }
+  
+  /*OCULTAR*/
+  
+  .form-content{
+    display: none;
+  }
+  
+  .form-content:nth-child(2){
+    display: block;
+  }
+  
+#ingreso {
+    margin: 0 auto;
+    padding: 30px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}  
